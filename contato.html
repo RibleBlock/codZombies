@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/logo_ico.ico">
+        <title>GALERIA</title>
+    </head>
+    <style>
+        body {
+        background-image: url(imagens/der.jpg);
+        display: block;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        }
+    
+        .bl {
+            background-color: rgba(0, 0, 0, 0.829);
+            padding: 15px;
+            color: white;
+        }
+    
+        button {
+        height: 30px;
+        text-align: center;
+        }
+
+        button:hover {
+            background-color: rgba(23, 23, 80, 0.397);
+            border-color: black;
+            color: aliceblue;
+        }
+
+        div {
+            background-color: rgba(0, 0, 0, 0.829);
+            border-radius: 15px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+            color: white;
+        }
+
+        textarea {
+            border-radius: 5px;
+        }
+
+    </style>
+<body style="margin: auto;">
+    <table width="100%" height="70px" align="right" style="background-color: black">
+        <tr align="center" style="background-color: black">
+            <td><a href="index.html"><img src="imagens/logo.png" alt="LOGO" height="60px"></a></td>
+            <td width="80%" align="left">
+            <td><a href="index.html"><button style="margin: 5px;">HOME</button></a></td>
+            <td><a href="historia.html"><button style="margin: 5px;">HITÓRIA</button></a></td>
+            <td><a href="informacao.html"><button style="margin: 5px;">INFORMAÇÃO</button></a></td>
+            <td><a href="galeria.html"><button style="margin: 5px;">GALERIA</button></a></td>
+            <td><a href="#"><button style="margin: 5px;">CONTATO </button></a></td>
+        </tr>
+    </table>
+    <!-- SITE -->
+
+    <br><br><br><br><br><br>
+
+    <div>
+        <h1>Contato:</h1>
+        <p>Nome:</p><input type="text">
+        <p>E-mail:</p><input type="email">
+        <p>Telefone:</p><input type="tel">
+        <p>Descreva o problema detalhadamente:</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="button" value="Enviar">
+    </div>
+</body>
+</html>
